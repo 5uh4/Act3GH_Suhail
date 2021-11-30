@@ -7,10 +7,11 @@ public class Act3GIT_Suhail {
 		int[] a;
 		a = new int[20];
 		int i;
-		
+		System.out.print("[");
 		for (i = 0; i < a.length - 1; i++) {
-			a[i] = ((int)Math.random() * 10);
-		}
+			a[i] = ((int)(Math.random() * 10));
+			System.out.print(a[i] + " ");
+		} System.out.print("]");
 	}
 
 }
